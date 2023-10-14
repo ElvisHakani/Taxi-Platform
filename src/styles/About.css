@@ -1,0 +1,44 @@
+.r {
+    width: 45rem;
+    font-size: large;
+}
+.l {
+    font-size: 3rem;
+    width: 37rem;
+    color: black;
+}
+.h4 {
+    color: rgb(255, 232, 30);
+    font-size: x-large;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the-picture {
+    background-image: url('../assets/taxii.png');
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    margin-top: 5rem;
+}
+.staff {
+    font-size: 3rem;
+    color: rgb(255, 232, 30);
+}
+.trex {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.staff-text {
+    margin-left: 3rem;
+    width: 30rem;
+}

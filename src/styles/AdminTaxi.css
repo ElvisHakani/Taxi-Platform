@@ -1,0 +1,46 @@
+.the-taxi {
+    background-color: rgb(255, 232, 30);
+    width: 70rem;
+    height: 10rem;
+    margin: 0.3rem;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.the-image {
+    width: 17rem;
+    height: 10rem;
+}
+
+.taxi-text {
+    margin-left: 1.5rem;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.745);
+    border-radius: 1rem;
+}
+
+.category {
+    padding: 0.5rem;
+    background-color: white;
+    color: rgb(255, 232, 30);
+    border-radius: 1rem;
+    margin: 0 1.5rem;
+}
+
+.add-taxi {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.add-taxi:hover {
+    transform: scale(1.1);
+    background-color: lightyellow;
+}

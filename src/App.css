@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: lightyellow;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  border: 1px solid rgb(255, 232, 30);
+}
+.taxi{
+  display: flex;
+  padding: 5px;
+  color: rgb(255, 232, 30);
+  background-color: black;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 5rem;
+  justify-content: center;
+}
+.booking{
+  background-color: rgb(255, 232, 30);
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.home-btn {
+  margin: 0 1rem;
+  color: white;
+  border: none;
+  background: black;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.home-btn:hover {
+  background-color: rgb(255, 232, 30);
+  color: black;
+  border: 2px solid black;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.nav-btns {
+  margin-right: 3rem;
+}
+
+.reserve-btn {
+  margin: 0 1rem;
+  color: white;
+  border: none;
+  background: black;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.reserve-btn:hover {
+  background-color: rgb(255, 232, 30);
+  color: black;
+  border: 2px solid black;
+}
+
+.contact-btn {
+  margin: 0 1rem;
+  color: white;
+  border: none;
+  background: black;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.contact-btn:hover {
+  background-color: rgb(255, 232, 30);
+  color: black;
+  border: 2px solid black;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+.padd {
+  padding: 0 0.6rem;
+}

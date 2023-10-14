@@ -1,0 +1,59 @@
+.the-card {
+    border: 1px solid black;
+    margin: 0.3rem;
+    width: 60rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 232, 30);
+    display: flex;
+    justify-content: space-around;
+}
+
+.admin-user-info {
+    background-color: rgba(0, 0, 0, 0.789);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.input {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+    transform: scale(0.95);
+}
+
+.input:focus {
+    border: 2px solid rgb(255, 232, 30);
+}
+
+.flex-admin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.search-back {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(255, 232, 30);
+    display: flex;
+    justify-content: space-between;
+    width: 5.5rem;
+    cursor: pointer;
+}

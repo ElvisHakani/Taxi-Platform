@@ -1,0 +1,48 @@
+.Ordered-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 86.4vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordered-navigate {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(255, 232, 30);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.ordered-navigate:hover {
+    transform: scale(1.15);
+    border-radius: 0.4rem;
+    background-color: black;
+    border: 5px solid rgb(255, 232, 30);
+    color: rgb(255, 232, 30);
+    font-weight: bolder;
+}
+
+.ordered-display {
+    padding: 5rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(255, 232, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ordered-flex {
+    display: flex;
+    align-items: center;
+}
+
+.ordered-info {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.14);
+}

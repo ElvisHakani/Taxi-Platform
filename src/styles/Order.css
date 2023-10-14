@@ -1,0 +1,54 @@
+.side-bar {
+    background-color: lightyellow;
+    width: 20rem;
+    height: 86.4vh;
+    border-bottom-right-radius: 0.5rem;
+    position: sticky;
+    top: 6.3rem;
+    left: 0;
+    border: 1px solid rgb(255, 232, 30);
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-btn {
+    padding: 0.6rem;
+    background: rgb(255, 232, 30);
+    border: none;
+    margin: 0.5rem;
+    width: 5rem;
+    color: white;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    
+}
+.side-btn:hover {
+    background-color: rgb(255, 239, 97);
+    color: black;
+}
+
+.side-input {
+    background-color: rgb(255, 232, 30);
+    width: 10rem;
+    height: 4rem;
+    color: white;
+    border: none;
+    margin: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+.Order {
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    justify-content: center;
+    align-items: center;
+}
